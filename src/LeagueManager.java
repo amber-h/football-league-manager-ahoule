@@ -42,10 +42,10 @@ public class LeagueManager {
     }
 
     public void displaySearchResults(PrintStream printStream, String nameSearch, String numberSearch) {
-        System.out.println("Anything?");
         populatePlayerList();
+
         for(Player player: playerList){
-              if(player.name == nameSearch && player.getNumber() == numberSearch){
+              if(player.name.equals(nameSearch) && player.getNumber().equals(numberSearch)){
                   printStream.println(player.name);
                   printStream.println(player.getTeam());
                   printStream.println(player.getNumber());
@@ -70,6 +70,4 @@ public class LeagueManager {
 
         return playerList;
     }
-
-
 }

@@ -1,8 +1,7 @@
 /**
  * Created by thoughtworker on 1/16/14.
  */
-public class Player{
-
+public class Coach {
     String name;
     private String team;
     private String number;
@@ -10,9 +9,9 @@ public class Player{
     private String type;
 
 
-    public Player(String name){
-       this.name = name;
-   }
+    public Coach(String name){
+        this.name = name;
+    }
 
     public void setTeam(String team) {
         this.team = team;

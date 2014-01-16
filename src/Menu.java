@@ -1,4 +1,6 @@
+import java.io.IOException;
 import java.io.PrintStream;
+import java.util.ArrayList;
 
 /**
  * Created by thoughtworker on 1/16/14.
@@ -13,12 +15,26 @@ public class Menu {
     }
 
     public void executeUserOption(String userOption){
+        String[] searchResult = null;
+        String nameSearch = "";
+        String numberSearch = "";
+
         if(userOption.equals("1")){
             manager.listPlayers(System.out);
         }
         else if(userOption.equals("2")){
-            System.out.println("Please search using the following format: player, number");
-            manager.displaySearchResults(System.out, "Bob Joe", "3");
+
+            try {
+                System.out.println("Please Enter the Name of the Player you are Searching For:");
+                nameSearch = manager.getUserOptionChoice();
+                System.out.println("Please Enter the Number of the Player you are Searching For:");
+                numberSearch = manager.getUserOptionChoice();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            System.out.println("Search Results:");
+            manager.displaySearchResults(System.out, nameSearch, numberSearch);
         }
     }
+
 }
