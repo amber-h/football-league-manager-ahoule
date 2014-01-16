@@ -1,26 +1,17 @@
 /**
  * Created by thoughtworker on 1/16/14.
  */
-public class Player{
+public class Player extends LeagueMember{
 
     String name;
-    private String team;
     private String number;
     private String age;
-    private String type;
 
 
     public Player(String name){
+       super(name);
        this.name = name;
    }
-
-    public void setTeam(String team) {
-        this.team = team;
-    }
-
-    public String getTeam() {
-        return team;
-    }
 
     public void setNumber(String number) {
         this.number = number;
@@ -38,11 +29,4 @@ public class Player{
         return age;
     }
 
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    public String getType() {
-        return type;
-    }
 }

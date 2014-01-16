@@ -12,6 +12,7 @@ public class Menu {
         printStream.println("Please Enter a Number to Choose from the Following Options:");
         printStream.println("1 - List of Players");
         printStream.println("2 - Search for Player");
+        printStream.println("3 - List by Team");
     }
 
     public void executeUserOption(String userOption){

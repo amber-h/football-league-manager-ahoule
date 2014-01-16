@@ -4,8 +4,7 @@
 public class Coach {
     String name;
     private String team;
-    private String number;
-    private String age;
+    private String title;
     private String type;
 
 
@@ -21,20 +20,12 @@ public class Coach {
         return team;
     }
 
-    public void setNumber(String number) {
-        this.number = number;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public String getNumber() {
-        return number;
-    }
-
-    public void setAge(String age) {
-        this.age = age;
-    }
-
-    public String getAge() {
-        return age;
+    public String setTitle() {
+        return title;
     }
 
     public void setType(String type) {
