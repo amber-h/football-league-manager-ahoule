@@ -15,11 +15,19 @@ public class Menu {
         printStream.println("3 - List by Team");
     }
 
-    public void executeUserOption(String userOption){
+    public void executeUserOption(String userOption) throws IOException {
         String[] searchResult = null;
         String nameSearch = "";
         String numberSearch = "";
 
+        if(!isValid(userOption)){
+            System.out.println("Please Select a valid option!");
+            try {
+                executeUserOption(manager.getUserOptionChoice());
+            } catch (IOException e) {
+                System.out.println("Error Reading Input");
+            }
+        }
         if(userOption.equals("1")){
             manager.listPlayers(System.out);
         }
@@ -36,6 +44,18 @@ public class Menu {
             System.out.println("Search Results:");
             manager.displaySearchResults(System.out, nameSearch, numberSearch);
         }
+    }
+
+    private boolean isValid(String userChoice) {
+        ArrayList<String> options = new ArrayList<String>();
+        options.add("1");
+        options.add("2");
+        options.add("3");
+
+        for(String validOption : options)
+            if (userChoice.equals(validOption))
+                return true;
+        return false;
     }
 
 }

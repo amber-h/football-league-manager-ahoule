@@ -67,7 +67,12 @@ public class LeagueManager {
         playerTest2.setNumber("12");
         playerTest2.setAge("33");
 
+        Coach coachTest = new Coach("Bob Alice");
+        coachTest.setTeam("Raptors");
+        coachTest.setTitle("Head Coach");
+
         playerList.add(playerTest);
         playerList.add(playerTest2);
+        //playerList.add(coachTest);
     }
 }

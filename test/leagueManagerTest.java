@@ -21,7 +21,7 @@ import java.util.List;
 public class leagueManagerTest {
     PrintStream printStream;
     LeagueManager leagueManager;
-    List<Player> playerList;
+    List<LeagueMember> playerList;
     Player player;
     BufferedReader bufferedReader;
 
@@ -30,7 +30,7 @@ public class leagueManagerTest {
         printStream = mock(PrintStream.class);
         bufferedReader = mock(BufferedReader.class);
         leagueManager = new LeagueManager();
-        playerList = new ArrayList<Player>();
+        playerList = new ArrayList<LeagueMember>();
         player = new Player("Bob Joe");
     }
 
