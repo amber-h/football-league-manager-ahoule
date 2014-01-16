@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e8313c-7cc0-4d52-b0ef-9a5574432e9b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LeagueManager.java" afterPath="$PROJECT_DIR$/src/LeagueManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Menu.java" afterPath="$PROJECT_DIR$/src/Menu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Search.java" afterPath="$PROJECT_DIR$/src/Search.java" />
     </list>
     <ignored path="football-league-manager.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,7 +69,7 @@
       <file leaf-file-name="leagueManagerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/leagueManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="46" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1200">
+            <state line="29" column="46" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1200">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,63 +80,10 @@
       <file leaf-file-name="Menu.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="9" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.7715736" vertical-offset="536" max-vertical-offset="1170">
+            <state line="37" column="57" selection-start="1298" selection-end="1298" vertical-scroll-proportion="-0.4388489" vertical-offset="738" max-vertical-offset="1155">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2283#2291#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Search.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Search.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="4" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeagueMember.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeagueMember.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <folding>
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-              <folding>
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Coach.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Coach.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding>
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#2245#2253#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,17 +97,6 @@
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="e#299#313#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeagueManagerApp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeagueManagerApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="1" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -643,16 +577,16 @@
       <changelist id="88e8313c-7cc0-4d52-b0ef-9a5574432e9b" name="Default" comment="" />
       <created>1389899532901</created>
       <updated>1389899532901</updated>
-      <workItem from="1389899537715" duration="16523000" />
+      <workItem from="1389899537715" duration="16763000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16523000" />
+    <option name="totallyTimeSpent" value="16763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="145" y="22" width="1227" height="801" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -674,7 +608,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2216789" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3920765" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3920765" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -719,18 +653,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeagueManagerApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="1" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Coach.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+        <state line="18" column="5" selection-start="353" selection-end="353" vertical-scroll-proportion="0.6852792" vertical-offset="0" max-vertical-offset="405">
           <folding>
             <element signature="e#258#259#0" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
@@ -740,7 +665,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+        <state line="32" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.7715736" vertical-offset="176" max-vertical-offset="570">
           <folding>
             <element signature="e#285#286#0" expanded="true" />
             <element signature="e#321#322#0" expanded="true" />
@@ -754,22 +679,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/leagueManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="46" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1200">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeagueMember.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+        <state line="15" column="29" selection-start="291" selection-end="291" vertical-scroll-proportion="0.53956836" vertical-offset="0" max-vertical-offset="417">
           <folding>
             <element signature="e#227#228#0" expanded="true" />
             <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
             <element signature="e#317#318#0" expanded="true" />
           </folding>
         </state>
@@ -777,8 +692,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Search.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+        <state line="6" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.21582733" vertical-offset="0" max-vertical-offset="417">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeagueManagerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="1" selection-start="271" selection-end="271" vertical-scroll-proportion="0.39568347" vertical-offset="0" max-vertical-offset="417">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -793,12 +717,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu.java">
+    <entry file="file://$PROJECT_DIR$/test/leagueManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="9" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.7715736" vertical-offset="536" max-vertical-offset="1170">
+        <state line="29" column="46" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1200">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2283#2291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="57" selection-start="1298" selection-end="1298" vertical-scroll-proportion="-0.4388489" vertical-offset="738" max-vertical-offset="1155">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2245#2253#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -16,7 +16,6 @@ public class Menu {
     }
 
     public void executeUserOption(String userOption) throws IOException {
-        String[] searchResult = null;
         String nameSearch = "";
         String numberSearch = "";
         String teamSearch = "";
