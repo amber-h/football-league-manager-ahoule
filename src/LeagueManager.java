@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LeagueManager {
-    List<Player> playerList = new ArrayList<Player>();
+    List<LeagueMember> playerList = new ArrayList<LeagueMember>();
     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
     PrintStream printStream = System.out;
 
@@ -29,7 +29,8 @@ public class LeagueManager {
 
         printStream.println("List of Players:");
 
-        for(Player player: playerList){
+        for(LeagueMember member: playerList){
+            Player player = (Player) member;
             printStream.println(player.name);
             printStream.println(player.getTeam());
             printStream.println(player.getNumber());
@@ -44,17 +45,18 @@ public class LeagueManager {
     public void displaySearchResults(PrintStream printStream, String nameSearch, String numberSearch) {
         populatePlayerList();
 
-        for(Player player: playerList){
-              if(player.name.equals(nameSearch) && player.getNumber().equals(numberSearch)){
-                  printStream.println(player.name);
-                  printStream.println(player.getTeam());
-                  printStream.println(player.getNumber());
-                  printStream.println(player.getAge());
-              }
+        for(LeagueMember member: playerList){
+            Player player = (Player) member;
+            if(player.name.equals(nameSearch) && player.getNumber().equals(numberSearch)){
+            printStream.println(player.name);
+            printStream.println(player.getTeam());
+            printStream.println(player.getNumber());
+            printStream.println(player.getAge());
+            }
         }
     }
 
-    private List<Player> populatePlayerList() {
+    private void populatePlayerList() {
         Player playerTest = new Player("Bob Joe");
         playerTest.setTeam("Raptors");
         playerTest.setNumber("3");
@@ -67,7 +69,5 @@ public class LeagueManager {
 
         playerList.add(playerTest);
         playerList.add(playerTest2);
-
-        return playerList;
     }
 }
