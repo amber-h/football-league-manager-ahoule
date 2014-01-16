@@ -1,10 +1,17 @@
+//import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
+
+import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.PrintStream;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,10 +23,12 @@ public class leagueManagerTest {
     LeagueManager leagueManager;
     List<Player> playerList;
     Player player;
+    BufferedReader bufferedReader;
 
     @Before
     public void setUp(){
         printStream = mock(PrintStream.class);
+        bufferedReader = mock(BufferedReader.class);
         leagueManager = new LeagueManager();
         playerList = new ArrayList<Player>();
         player = new Player("Bob Joe");
