@@ -44,7 +44,6 @@ public class LeagueManager {
 
     public void displaySearchResults(PrintStream printStream, String nameSearch, String numberSearch) {
         populatePlayerList();
-
         for(LeagueMember member: playerList){
             Player player = (Player) member;
             if(player.name.equals(nameSearch) && player.getNumber().equals(numberSearch)){
@@ -52,6 +51,19 @@ public class LeagueManager {
             printStream.println(player.getTeam());
             printStream.println(player.getNumber());
             printStream.println(player.getAge());
+            }
+        }
+    }
+
+    public void searchByTeam(PrintStream printStream, String teamSearch){
+        populatePlayerList();
+        for(LeagueMember member: playerList){
+            Player player = (Player) member;
+            if(player.getTeam().equals(teamSearch)){
+                printStream.println(player.name);
+                printStream.println(player.getTeam());
+                printStream.println(player.getNumber());
+                printStream.println(player.getAge());
             }
         }
     }

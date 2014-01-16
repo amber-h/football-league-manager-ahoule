@@ -4,7 +4,7 @@
     <list default="true" id="88e8313c-7cc0-4d52-b0ef-9a5574432e9b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LeagueManager.java" afterPath="$PROJECT_DIR$/src/LeagueManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Menu.java" afterPath="$PROJECT_DIR$/src/Menu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/leagueManagerTest.java" afterPath="$PROJECT_DIR$/test/leagueManagerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Search.java" afterPath="$PROJECT_DIR$/src/Search.java" />
     </list>
     <ignored path="football-league-manager.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,11 +82,20 @@
       <file leaf-file-name="Menu.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="35" selection-start="1033" selection-end="1033" vertical-scroll-proportion="-0.25634518" vertical-offset="551" max-vertical-offset="1005">
+            <state line="56" column="9" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.7715736" vertical-offset="536" max-vertical-offset="1170">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1804#1812#0" expanded="true" />
+                <element signature="e#2283#2291#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Search.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Search.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="4" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,7 +147,7 @@
       <file leaf-file-name="LeagueManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeagueManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="1" selection-start="581" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1260">
+            <state line="66" column="13" selection-start="2337" selection-end="2337" vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="1440">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -174,19 +183,19 @@
       <list>
         <option value="$PROJECT_DIR$/test/menuTest.java" />
         <option value="$PROJECT_DIR$/test/searchTest.java" />
-        <option value="$PROJECT_DIR$/src/Search.java" />
         <option value="$PROJECT_DIR$/src/LeagueManagerApp.java" />
         <option value="$PROJECT_DIR$/src/LeagueMember.java" />
         <option value="$PROJECT_DIR$/src/Player.java" />
         <option value="$PROJECT_DIR$/src/Coach.java" />
         <option value="$PROJECT_DIR$/test/leagueManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/Search.java" />
         <option value="$PROJECT_DIR$/src/LeagueManager.java" />
         <option value="$PROJECT_DIR$/src/Menu.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="101" />
+    <option name="x" value="145" />
     <option name="y" value="22" />
     <option name="width" value="1227" />
     <option name="height" value="801" />
@@ -634,15 +643,15 @@
       <changelist id="88e8313c-7cc0-4d52-b0ef-9a5574432e9b" name="Default" comment="" />
       <created>1389899532901</created>
       <updated>1389899532901</updated>
-      <workItem from="1389899537715" duration="16038000" />
+      <workItem from="1389899537715" duration="16523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16038000" />
+    <option name="totallyTimeSpent" value="16523000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="22" width="1227" height="801" extended-state="0" />
+    <frame x="145" y="22" width="1227" height="801" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -710,13 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="69" selection-end="69" vertical-scroll-proportion="0.1142132" vertical-offset="0" max-vertical-offset="394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeagueManagerApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="1" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
@@ -773,9 +775,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeagueManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="581" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1260">
+        <state line="66" column="13" selection-start="2337" selection-end="2337" vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="1440">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -786,10 +795,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="35" selection-start="1033" selection-end="1033" vertical-scroll-proportion="-0.25634518" vertical-offset="551" max-vertical-offset="1005">
+        <state line="56" column="9" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.7715736" vertical-offset="536" max-vertical-offset="1170">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1804#1812#0" expanded="true" />
+            <element signature="e#2283#2291#0" expanded="true" />
           </folding>
         </state>
       </provider>

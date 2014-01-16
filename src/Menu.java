@@ -19,6 +19,7 @@ public class Menu {
         String[] searchResult = null;
         String nameSearch = "";
         String numberSearch = "";
+        String teamSearch = "";
 
         if(!isValid(userOption)){
             System.out.println("Please Select a valid option!");
@@ -43,6 +44,16 @@ public class Menu {
             }
             System.out.println("Search Results:");
             manager.displaySearchResults(System.out, nameSearch, numberSearch);
+        }
+        else if(userOption.equals("3")){
+            try {
+                System.out.println("Please Enter the Name of the team you would like to view:");
+                teamSearch = manager.getUserOptionChoice();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            System.out.println("Search Results for " + teamSearch + ":");
+            manager.searchByTeam(System.out, teamSearch);
         }
     }
 
