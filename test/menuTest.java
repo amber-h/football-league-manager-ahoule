@@ -21,8 +21,9 @@ public class menuTest {
     @Test
     public void shouldDisplayOptionsWhenMenuOptionsIsCalled(){
         Menu menu = new Menu();
-        menu.displayOptions();
+        menu.displayOptions(printStream);
 
-        verify(printStream).println("1 - List available books");
+        verify(printStream).println("1 - List of Players");
+        verify(printStream).println("2 - Search for Player");
     }
 }

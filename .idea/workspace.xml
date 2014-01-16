@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e8313c-7cc0-4d52-b0ef-9a5574432e9b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LeagueManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Menu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Player.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/leagueManagerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/menuTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_all_1_9_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/playerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LeagueManagerApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LeagueManager.java" afterPath="$PROJECT_DIR$/src/LeagueManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Menu.java" afterPath="$PROJECT_DIR$/src/Menu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/menuTest.java" afterPath="$PROJECT_DIR$/test/menuTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="football-league-manager.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,10 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menuTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="menuTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/menuTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="381" selection-end="381" vertical-scroll-proportion="0.46043167" vertical-offset="93" max-vertical-offset="510">
+            <state line="17" column="46" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="525">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,7 +104,7 @@
       <file leaf-file-name="Menu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+            <state line="9" column="50" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
@@ -134,15 +132,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeagueManager.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LeagueManager.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeagueManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="44" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="555">
+            <state line="9" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.30456853" vertical-offset="15" max-vertical-offset="600">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="e#200#208#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeagueManagerApp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeagueManagerApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="28" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,15 +168,16 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/Player.java" />
-        <option value="$PROJECT_DIR$/src/LeagueManager.java" />
         <option value="$PROJECT_DIR$/test/leagueManagerTest.java" />
         <option value="$PROJECT_DIR$/src/Menu.java" />
         <option value="$PROJECT_DIR$/test/menuTest.java" />
+        <option value="$PROJECT_DIR$/src/LeagueManagerApp.java" />
+        <option value="$PROJECT_DIR$/src/LeagueManager.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="288" />
+    <option name="x" value="240" />
     <option name="y" value="22" />
     <option name="width" value="1090" />
     <option name="height" value="801" />
@@ -302,6 +310,46 @@
     <configuration default="false" name="LeagueManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="LeagueManager" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="football-league-manager" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="menuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="football-league-manager" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="menuTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LeagueManagerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="LeagueManagerApp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -527,14 +575,18 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.leagueManagerTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.LeagueManager" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.menuTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LeagueManagerApp" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="JUnit.leagueManagerTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LeagueManager" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LeagueManagerApp" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LeagueManager" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.menuTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -548,15 +600,15 @@
       <changelist id="88e8313c-7cc0-4d52-b0ef-9a5574432e9b" name="Default" comment="" />
       <created>1389899532901</created>
       <updated>1389899532901</updated>
-      <workItem from="1389899537715" duration="4868000" />
+      <workItem from="1389899537715" duration="5442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4868000" />
+    <option name="totallyTimeSpent" value="5442000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="288" y="22" width="1090" height="801" extended-state="0" />
+    <frame x="240" y="22" width="1090" height="801" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -615,17 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeagueManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="44" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="555">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#200#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="19" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="660">
@@ -646,13 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/leagueManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="28" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="1065">
@@ -662,11 +696,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="50" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/menuTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="381" selection-end="381" vertical-scroll-proportion="0.46043167" vertical-offset="93" max-vertical-offset="510">
+        <state line="17" column="46" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="525">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeagueManagerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="28" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeagueManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.30456853" vertical-offset="15" max-vertical-offset="600">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#200#208#0" expanded="true" />
           </folding>
         </state>
       </provider>

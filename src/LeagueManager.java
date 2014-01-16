@@ -8,10 +8,11 @@ import java.util.List;
 public class LeagueManager {
     List<Player> playerList = new ArrayList<Player>();
 
-
-    public static void main(String[] args) {
+    public static void run() {
         LeagueManager manager = new LeagueManager();
+        Menu menu = new Menu();
         manager.listPlayers(System.out);
+        menu.displayOptions(System.out);
     }
 
     public void listPlayers(PrintStream printStream) {
@@ -28,4 +29,6 @@ public class LeagueManager {
             printStream.println(player.getAge());
         }
     }
+
+
 }
